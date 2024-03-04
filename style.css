@@ -1,0 +1,184 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#header-two {
+  display: flex;
+  flex-direction: row6;
+}
+#paytm {
+  color: rgb(7, 7, 134);
+  font-size: 1.5rem;
+  margin: 5vh 7vw;
+}
+#header > div > div > i {
+  color: red;
+}
+#consumer {
+  font-size: 1.2rem;
+  margin: 5vh 1.5vw;
+}
+#bus {
+  font-size: 1.2rem;
+  margin: 5vh 1.5vw;
+}
+#investor {
+  font-size: 1.2rem;
+  margin: 5vh 1.5vw;
+}
+#company {
+  font-size: 1.2rem;
+  margin: 5vh 1.5vw;
+}
+#career {
+  font-size: 1.2rem;
+  margin: 5vh 1.5vw;
+}
+#sing {
+  display: flex;
+  flex-direction: row;
+}
+#sign {
+  font-size: 1.1rem;
+  margin: 5vh 10vw;
+  border: 1px solid rgb(51, 176, 225);
+  background-color: rgb(42, 165, 214);
+  height: 42px;
+  /* width: 150px; */
+  color: white;
+  /* padding: 1vh 1.4vw; */
+  padding: 8px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+#box {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(13, 13, 121);
+  z-index: 1;
+  border-radius: 100px;
+  margin-left: 9px;
+  /* margin-top: 2px; */
+}
+#main-header {
+  background-image: url("navback.jpeg");
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  margin: 50px 50px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+#wallet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -60px;
+}
+#wallet-text {
+  color: white;
+}
+#money {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -40px;
+}
+#money-text {
+  color: white;
+}
+#bank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -60px;
+}
+#bank-text {
+  color: white;
+}
+#passbook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -60px;
+}
+#passbook-text {
+  color: white;
+}
+#app {
+  columns: black;
+  margin-top: 10px;
+}
+#main-header > div > div > i {
+  color: white;
+  font-size: 1.6rem;
+  margin: 20px 60px;
+}
+#bill,
+#tickets,
+#play {
+  font-size: 20px;
+  margin-left: 20px;
+}
+#first-line,
+#second-line,
+#third-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.box-icon {
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  justify-content: space-around;
+}
+.prepaid,
+.pokar,
+.one {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  align-items: center;
+  width: 16vw;
+  gap: 10px;
+}
+#services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#all {
+  color: rgb(47, 142, 179);
+  margin-top: 30px;
+  border: 1px solid gray;
+  height: 30px;
+  width: 130px;
+  align-items: center;
+  padding-left: 17px;
+  padding-top: 4px;
+  border-radius: 30px;
+}
+.fa-thin {
+  padding-left: 7px;
+}
